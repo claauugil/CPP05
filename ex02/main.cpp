@@ -6,7 +6,7 @@
 /*   By: claudia <claudia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/06 11:11:22 by claudia           #+#    #+#             */
-/*   Updated: 2025/11/12 19:08:12 by claudia          ###   ########.fr       */
+/*   Updated: 2025/11/13 12:59:00 by claudia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int main()
     std::cout << shrub << robot << pardon;
 
     try {
-        std::cout << YELLOW << "\n=== Charlie tries to sign Shrubbery ===" << RESET << std::endl;
+        std::cout << YELLOW << "=== Charlie tries to sign Shrubbery ===" << RESET << std::endl;
         charlie.signForm(shrub);
     } catch (std::exception &e) {
         std::cerr << RED << "Exception caught: " << e.what() << RESET << std::endl;
@@ -56,7 +56,7 @@ int main()
         std::cerr << RED << "Exception caught: " << e.what() << RESET << std::endl;
     }
 
-    std::cout << GREEN << "\n=== Executing Forms ===" << RESET << std::endl;
+    std::cout << GREEN << "=== Executing Forms ===" << RESET << std::endl;
 
     try {
         std::cout << YELLOW << "--- Charlie executes Shrubbery ---" << RESET << std::endl;
@@ -79,7 +79,7 @@ int main()
         std::cerr << RED << "Exception caught: " << e.what() << RESET << std::endl;
     }
 
-    std::cout << GREEN << "\n=== Final state of the forms ===" << RESET << std::endl;
+    std::cout << GREEN << "=== Final state of the forms ===" << RESET << std::endl;
     std::cout << shrub << robot << pardon;
 
     return 0;
