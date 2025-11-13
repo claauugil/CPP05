@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: claudia <claudia@student.42.fr>            +#+  +:+       +#+        */
+/*   By: cgil <cgil@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/06 11:11:22 by claudia           #+#    #+#             */
-/*   Updated: 2025/11/13 12:59:00 by claudia          ###   ########.fr       */
+/*   Updated: 2025/11/13 15:23:07 by cgil             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int main()
 
     std::cout << GREEN << "=== Creating Bureaucrats ===" << RESET << std::endl;
     Bureaucrat charlie("Charlie", 100);
-    Bureaucrat diana("Diana", 10);
+    Bureaucrat diana("Diana", 5);
     std::cout << charlie << std::endl;
     std::cout << diana << std::endl;
 
